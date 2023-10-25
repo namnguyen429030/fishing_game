@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Jellyfish
+  - Fish
+  - Hook
+  - Cat
+  - Object
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Layer 1
+    uniqueID: 3844331893
+    locked: 0
+  - name: Layer 2
+    uniqueID: 1206300559
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4195537963
+    locked: 0
+  - name: Layer 4
+    uniqueID: 1607757493
+    locked: 0
+  - name: Layer 5
+    uniqueID: 3055883867
+    locked: 0
