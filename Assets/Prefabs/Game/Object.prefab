@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7042570298480727944}
   - component: {fileID: 6973197797239160658}
-  - component: {fileID: 364355897576350182}
   - component: {fileID: -8279606073241269488}
   - component: {fileID: -2931125381653547673}
   - component: {fileID: 1475910589958669065}
   - component: {fileID: -1523932350633763848}
+  - component: {fileID: 3373459800680321031}
   m_Layer: 0
   m_Name: Object
   m_TagString: Object
@@ -89,19 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &364355897576350182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403583539080067379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d21d1f68c41c5a4488b85cd9b4630133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObjectName: {fileID: 8300000, guid: fefc657b8e3f1b04db7b63b46dc13103, type: 3}
 --- !u!114 &-8279606073241269488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,8 +106,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 364355897576350182}
-          m_TargetAssemblyTypeName: Object, Assembly-CSharp
+        - m_Target: {fileID: 3373459800680321031}
+          m_TargetAssemblyTypeName: Assets.Scripts.Concretes.ClickableObjects.ReadingNameObject,
+            Assembly-CSharp
           m_MethodName: Click
           m_Mode: 1
           m_Arguments:
@@ -264,3 +252,16 @@ SortingGroup:
   m_SortingLayerID: -99429333
   m_SortingLayer: 3
   m_SortingOrder: 0
+--- !u!114 &3373459800680321031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403583539080067379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a79b2ea8af184b9199c29cfa13898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}

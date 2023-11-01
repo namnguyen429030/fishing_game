@@ -510,11 +510,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 839619887332513891, guid: c4344cf90007a2248b2afc210662f4ee, type: 3}
   m_PrefabInstance: {fileID: 1269590523}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1269590525 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 839619887332513888, guid: c4344cf90007a2248b2afc210662f4ee, type: 3}
-  m_PrefabInstance: {fileID: 1269590523}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1325884267
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +632,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555798154}
-  - component: {fileID: 1555798153}
   m_Layer: 0
   m_Name: Home UI Manager
   m_TagString: Untagged
@@ -645,20 +639,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1555798153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555798152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca1e92de568503644bcb915a39affbd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayButton: {fileID: 2095744373}
-  QuitButton: {fileID: 1269590525}
 --- !u!4 &1555798154
 Transform:
   m_ObjectHideFlags: 0
@@ -822,11 +802,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688465622}
   m_CullTransparentMesh: 1
---- !u!1 &2095744373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 839619887332513888, guid: c4344cf90007a2248b2afc210662f4ee, type: 3}
-  m_PrefabInstance: {fileID: 839619886985796885}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2095744374 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 839619887332513891, guid: c4344cf90007a2248b2afc210662f4ee, type: 3}

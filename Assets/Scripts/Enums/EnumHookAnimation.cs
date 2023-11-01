@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.Scripts.Interfaces
+namespace Assets.Scripts.Enums
 {
-    internal interface IObjectPlayingAnimation
+    public enum EnumHookAnimation
     {
+        Moc_gap_do_wating, Moc_gap_do_Open, Moc_gap_do_Close
     }
 }

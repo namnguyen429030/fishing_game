@@ -4,12 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UnityEngine;
 
-namespace Assets.Scripts.Interfaces
+namespace Assets.Scripts.Concretes.States.AudioState
 {
-    public interface IObjectMoving
+    public abstract class AudioState : State
     {
-        void Moving(MoveableObject _object, Vector3 destination);
     }
 }
